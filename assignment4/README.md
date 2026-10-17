@@ -12,4 +12,3 @@ Implementation of the Facade design pattern in Java for video conversion. `Video
 
 ## How to Run
 - Run `Main.java`
-- Run `VideoConversionFacadeTest.java` with JUnit 5 to run unit tests
