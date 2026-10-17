@@ -12,4 +12,4 @@ Implementation of the Builder creational design pattern in Java for generating s
 - `Main.java`: Client demonstrating director-driven and custom fluent-API object construction
 
 ## How to Run
-Run `Main.java` with JDK 17+ in IntelliJ IDEA
+Run `Main.java` in IntelliJ IDEA

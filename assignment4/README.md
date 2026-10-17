@@ -1,14 +1,15 @@
-# Assignment 4 Facade Pattern
+# Assignment4  Facade Pattern
 
 ## Overview
-Implementation of the Facade structural design pattern in Java, Option A: Video Conversion Facade. Provides a simple high-level interface `VideoConversionFacade` over a complex subsystem of video-processing classes
+Implementation of the Facade design pattern in Java for video conversion. `VideoConversionFacade` provides one simple method to convert videos, hiding the complex subsystem
 
 ## Components
-**Facade:** `VideoConversionFacade`
-
-**Subsystem Classes:** `VideoFile`, `CodecFactory`, `BitrateReader`, `AudioMixer`
-
-**Client:** `Main`
+- **Facade:** `VideoConversionFacade`
+- **Subsystem:** `VideoFile`, `CodecFactory`, `BitrateReader`, `AudioMixer`
+- **Exception:** `VideoConversionException`
+- **Client:** `Main`
+- **Tests:** `VideoConversionFacadeTest`
 
 ## How to Run
-Run `Main.java` 
+- Run `Main.java`
+- Run `VideoConversionFacadeTest.java` with JUnit 5 to run unit tests
